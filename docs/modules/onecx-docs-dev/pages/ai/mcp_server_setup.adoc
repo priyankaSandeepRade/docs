@@ -1,0 +1,8 @@
+:idprefix:
+:idseparator: -
+:imagesdir: ../../images
+:page-path: .
+
+= AI: MCP Server Setup
+
+This page provides a guide for setting up an MCP (Model Context Protocol) server to manage and deploy AI models effectively. An MCP server allows you to control the lifecycle of your AI models, including deployment, scaling, and monitoring.

@@ -1,3 +1,5 @@
+include::documentation:onecx-docs-dev:partial$nav-ai.adoc[]
+
 * xref:documentation:onecx-docs-dev:index.adoc[Development]
 +
 --
@@ -31,4 +33,3 @@ include::documentation:onecx-docs-dev:partial$nav-quarkus.adoc[]
 --
 include::documentation:onecx-bpmn:partial$nav.adoc[]
 --
-** xref:documentation:onecx-docs-dev:ai_support.adoc[AI Integration]
