@@ -78,6 +78,7 @@ MCP: Add server...
 
 . Provide the MCP server URL  
 +
+.Example: Onecx MCP Server
 [source,text]
 ----
 https://onecx-docs-ai-dev.dev.one-cx.org/mcp
@@ -99,6 +100,30 @@ Provides metadata and security insights for npm packages.
 
 Chrome DevTools MCP::  
 Allows AI agents to interact with a Chrome browser instance for debugging and inspection tasks.
+
+
+=== Effective MCP Tool Usage
+
+MCP tools can be used more effectively by limiting how many are enabled at once.
+Using too many MCP tools simultaneously may reduce response relevance and increase execution overhead.  
+Enable only the tools required for the current task to maintain optimal accuracy and performance.
+
+Examples:
+
+OneCX development:
+
+* OneCX MCP
+* PrimeNG MCP
+* npm Sentinel MCP
+
+Frontend debugging:
+
+* Chrome DevTools MCP
+* PrimeNG MCP
+
+Dependency validation:
+
+* npm Sentinel MCP
 
 === PrimeNG MCP
 
@@ -270,29 +295,6 @@ Use chrome devtools to open https://example.com and list the page title.
 ----
 Use chrome-devtools-mcp to inspect the DOM of https://example.com.
 ----
-
-== Effective MCP Tool Usage
-
-MCP tools can be used more effectively by limiting how many are enabled at once.
-Using too many MCP tools simultaneously may reduce response relevance and increase execution overhead.  
-Enable only the tools required for the current task to maintain optimal accuracy and performance.
-
-Examples:
-
-OneCX development:
-
-* OneCX MCP
-* PrimeNG MCP
-* npm Sentinel MCP
-
-Frontend debugging:
-
-* Chrome DevTools MCP
-* PrimeNG MCP
-
-Dependency validation:
-
-* npm Sentinel MCP
 
 == Troubleshooting
 
