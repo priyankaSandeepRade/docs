@@ -32,4 +32,5 @@ Before proceeding, familiarize yourself with the following concepts:
 |===
 | Name  | Description
 | xref:./concepts/content-loading.adoc[Microfrontend content loading] | Explains how content loading is handled in OneCX
+| xref:./concepts/webcomponents/index.adoc[Web Components] | Explains how Web Components are used in OneCX
 |===
