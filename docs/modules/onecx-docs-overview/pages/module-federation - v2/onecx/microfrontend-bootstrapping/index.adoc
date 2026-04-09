@@ -1,0 +1,30 @@
+// Todo correct new links
+:mfe-loading_url: xref:../microfrontend-content-loading.adoc
+:angular-webcomponents_url: xref:../webcomponents.adoc#onecx-angular-webcomponents
+:angular_issues_url: xref:../webcomponents.adoc#angular-issues
+:createAppEntrypoint_url: xref:../webcomponents.adoc#create-app-entrypoint
+:startsWith_url: xref:../webcomponents.adoc#starts-with
+:bootstrapRemoteComponent_url: xref:../webcomponents.adoc#bootstrap-remote-component
+:initializeRouter_url: xref:../webcomponents.adoc#initialize-router
+:events_topic_url: xref:documentation:onecx-portal-ui-libs:libraries/integration-interface.adoc#events-topic
+:current_mfe_topic_url: xref:documentation:onecx-portal-ui-libs:libraries/integration-interface.adoc#current-mfe-topic
+:user_service_url: xref:documentation:onecx-portal-ui-libs:libraries/angular-integration-interface.adoc#user-service
+
+[#microfrontend-bootstrapping]
+= Microfrontend Bootstrapping
+
+include::./overview.adoc[]
+
+== Key concepts
+
+* xref:bootstrapping-explained.adoc[Microfrontend Content Bootstrapping Explained]
+
+== Module
+
+* xref:module-bootstrapping.adoc[Module Bootstrapping and Configuration]
+* xref:module-deep-dive.adoc[Remote Module Example Deep Dive]
+
+== Remote Component
+
+* xref:remote-component-bootstrapping.adoc[Remote Component Bootstrapping and Configuration]
+* xref:remote-component-deep-dive.adoc[Remote Component Example Deep Dive]

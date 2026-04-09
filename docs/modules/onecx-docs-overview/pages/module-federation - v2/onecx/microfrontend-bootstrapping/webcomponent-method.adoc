@@ -1,0 +1,2 @@
+[#content-exposed-using-webcomponent-method]
+= Content Exposed Using Webcomponent Method
