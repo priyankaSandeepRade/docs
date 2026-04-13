@@ -19,8 +19,6 @@ These services are consumed by the OneCX shell, which orchestrates and displays 
 
 We start with creating the UI structure of our "Hello World" App by running the following commands using the custom OneCX generator.
 
-Please check the {generator_base_url}/prerequisites.adoc[Prerequisites for using the OneCX App Generator] before starting.
-
 
 [#setup-new-angular-workspace]
 ==== Setup New Angular Workspace
