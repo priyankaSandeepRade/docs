@@ -4,7 +4,7 @@
 [#module-federation-introduction]
 = Module Federation Introduction
 
-https://module-federation.io/guide/start/[Module Federation] is a mechanism that allows sharing code and resources among multiple JavaScript applications.
+https://module-federation.io/guide/start/[Module Federation] is a mechanism that allows code and resources to be shared across multiple JavaScript applications.
 
 **Module Federation** is used to support a **microfrontend-based architecture** where multiple applications can work together as a single user interface.
 
@@ -19,17 +19,27 @@ Before proceeding, familiarize yourself with the following concepts:
 |===
 | Name  | Description
 
-| https://webpack.js.org/concepts/[Webpack] | Static module bundler for *JavaScript applications* that supports module federation
+| https://webpack.js.org/concepts/[Webpack] | A static module bundler for *JavaScript applications* that supports Module Federation
 | https://module-federation.io/[Module Federation] | Enables scalable, independently deployable frontend architecture with *runtime integration*
-| https://developer.mozilla.org/en-US/docs/Web/API/Web_components[Webcomponents] | Technology used to render applications in OneCX shell
+| https://developer.mozilla.org/en-US/docs/Web/API/Web_components[Web Components] | Technology used to render applications in OneCX shell
 | https://micro-frontends.org/[Microfrontends] | Extends the concepts of microservices to the frontend world
-| https://onecx.github.io/docs/documentation/current/index.html[OneCX] | An *innovative open-source platform* solution enabling seamless *microfrontends integration*
+| https://onecx.github.io/docs/documentation/current/index.html[OneCX] | An *innovative open-source platform* solution enabling seamless *microfrontend integration*
 |===
 
 
 .Concepts
-[.stripes-even,cols="20,~"]
+[.stripes-even,cols="25,~"]
 |===
 | Name  | Description
 | xref:./concepts/content-loading.adoc[Microfrontend content loading] | Explains how content loading is handled in OneCX
+| xref:./concepts/webcomponents/index.adoc[Web Components] | Explains how Web Components are used in OneCX to load microfrontends
+|===
+
+.How to bootstrap and configure microfrontends in OneCX
+[.stripes-even,cols="25,~"]
+|===
+| Name  | Description
+| xref:./onecx/microfrontend-bootstrapping/index.adoc[Microfrontend bootstrapping] | Explains how to set the initial structure and configuration for a microfrontend application in OneCX
+| xref:./onecx/microfrontend-configuration.adoc[Microfrontend configuration] | Explains how to configure a microfrontend to use Module Federation for loading and dependency sharing in OneCX
+| xref:./onecx/angular-webcomponents.adoc[Angular Webcomponents] | Explains that exposing modules and remote components via microfrontends is the recommended approach within the OneCX platform.
 |===
