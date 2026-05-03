@@ -1,0 +1,15 @@
+[#module-federation-bootstrapping-and-configuration-in-onecx]
+= Module Federation bootstrapping and configuration in OneCX
+
+This guide contains information about how to set up and use Module Federation in OneCX, including bootstrapping and configuration of module and remote components.
+
+== Key concepts
+
+.How to bootstrap and configure microfrontends in OneCX
+[.stripes-even,cols="25,~"]
+|===
+| Name  | Description
+| xref:./microfrontend-bootstrapping/index.adoc[Microfrontend bootstrapping] | Explains how to set initial structure and configuration for a microfrontend application in OneCX
+| xref:./microfrontend-configuration.adoc[Microfrontend configuration] | Explains how to configure a microfrontend to use Module Federation for loading and dependency sharing in OneCX
+| xref:./angular-webcomponents.adoc[Angular Webcomponents] | Explains that exposing modules and Remote Components via Microfrontends is the recommended way within the OneCX platform.
+|===
